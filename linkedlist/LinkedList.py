@@ -1,4 +1,5 @@
 __author__ = 'lisa'
+
 from linkedlist.Node import Node
 
 class LinkedList(object):
@@ -48,6 +49,7 @@ class LinkedList(object):
 
 
             else:
+
                 self.head.remove(data, self.head)
 
 
